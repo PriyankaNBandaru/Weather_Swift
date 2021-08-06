@@ -26,19 +26,19 @@ The view Controller does the data representation
 
 The Controller with the help of the methods from **APIHelper**,**JSONHelper**,**Helper** receives the data and sends it to the View and explains how to use the data.
 
-# Unit Tests
+# Unit Tests:
 
 `Weather_SwiftTests` target contains unit testcases for JSON to Model conversions,file to json conversion,URL generation.
 
-# UI Tests
+# UI Tests:
 
 `Weather_SwiftUITets` target contains UI test cases to test the existence of labels,images on swipe and on load.
 
-# Utilities
+# Utilities:
 
 The Utilities consists of **Constants.swift** file that includes the different constant values used within the project.
 
-# UI
+# UI:
 
 The view for the app is contained within storyboard and is handled by  [ViewController.swift].The view updates on a swipe to right/left and displays the Weather for respective cities.
 
