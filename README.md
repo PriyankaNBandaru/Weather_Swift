@@ -1,6 +1,6 @@
 # Weather_Swift
 
-**Weather_Swift**  app shows live weather data fetched from [Metaweather](https://www.metaweather.com/api/)
+**Weather_Swift**  app shows live weather data fetched from [MetaWeather](https://www.metaweather.com/api/)
 
 The app consists of a single screen, showing pre-configured number of cities whose weather data is fetched from the API for the next day.
 
