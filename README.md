@@ -6,9 +6,7 @@ The app consists of a single screen, showing pre-configured number of cities who
 
 Locations can be preconfigured form [Locations.json](https://github.com/PriyankaNBandaru/Weather_Swift/blob/main/Weather_Swift/Locations.json)
 
-The app supports all iPhone models.
-
-Weather API data is fetched on the launch of the application i.e., whenever the view appears.
+Weather API data is fetched on the launch of the application and also fetched every 3 minutes to retrieve the latest information.The api is fetched every 3 minutes and the last updated label at the bottom of view is uupdated accordingly.
 
 # App Architecture Overview:
 
@@ -41,6 +39,17 @@ The Utilities consists of **Constants.swift** file that includes the different c
 # UI:
 
 The view for the app is contained within storyboard and is handled by  [ViewController.swift].The view updates on a swipe to right/left and displays the Weather for respective cities.
+
+The view is drawn using the auto loayout constraints set in the storyboard.
+
+
+#Limitations:
+
+The background images can be animated with the help of UIAnimation.
+
+The timer time can be passes dynamically by setting it in Info.plist file.
+
+
 
 
 
