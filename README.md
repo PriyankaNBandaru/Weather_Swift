@@ -43,7 +43,7 @@ The view for the app is contained within storyboard and is handled by  [ViewCont
 The view is drawn using the auto loayout constraints set in the storyboard.
 
 
-#Limitations:
+# Limitations:
 
 The background images can be animated with the help of UIAnimation.
 
