@@ -1,0 +1,32 @@
+[
+    {
+        "title": "London",
+        "location_type": "City",
+        "woeid": 44418
+    },
+    {
+        "title": "Gothenburg",
+        "location_type": "City",
+        "woeid": 890869
+    },
+    {
+        "title": "Stockholm",
+        "location_type": "City",
+        "woeid": 906057
+    },
+    {
+        "title": "Mountain view",
+        "location_type": "City",
+        "woeid": 2455920
+    },
+    {
+        "title": "New York",
+        "location_type": "City",
+        "woeid": 2459115
+    },
+    {
+        "title": "Berlin",
+        "location_type": "City",
+        "woeid": 638242
+    },
+]
